@@ -1,0 +1,37 @@
+.Ask-Block {
+  width: 60%;
+  margin: 150px 15%;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+textarea {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #eeeeee;
+  padding: 15px 10px 10px 24px;
+  font-size: 36px;
+  box-sizing: border-box;
+  border: none;
+  width: 80%;
+  height: 550px;
+  outline: none;
+  resize: none;
+}
+
+.submit {
+  background-color: rgb(180,119,115);
+  border: none;
+  font-size: 24px;
+  color: rgba(255,255,255, 0.7);
+  position: relative;
+  top: -492px;
+  left: 60px;
+  width: 15%;
+  height: 100px;
+}
