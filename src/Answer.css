@@ -19,6 +19,7 @@
 .text {
   position: relative;
   min-height: 200px;
+  font-family: ‘cwTeXFangSong’, serif;
 }
 
 .split {

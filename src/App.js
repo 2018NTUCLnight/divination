@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Ask from './Ask.js';
 import Answer from './Answer.js';
 import './App.css';
+import bgImg from './background-word.png';
 
 class App extends Component {
   constructor(props){
@@ -20,6 +21,7 @@ class App extends Component {
   }
   render() {
     var display = [];
+    display.push(<img src={bgImg} className="image" />);
     switch(this.state.display){
       case 'ask':
         display.push(<Ask askquestion={this.askQuestion} />);

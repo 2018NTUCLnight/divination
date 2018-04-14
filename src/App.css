@@ -3,10 +3,11 @@ body {
   color: #eeeeee;
 }
 
-.ask {
-  background: rgb(64, 142, 160);
-}
-
-.answer {
-  background: rgb(64, 142, 160);
+.image {
+  opacity: 0.5;
+  position: absolute;
+  bottom: -40%;
+  left: 25%;
+  width: 50%;
+  z-index: -1;
 }
