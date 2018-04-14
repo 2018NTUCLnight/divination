@@ -11,7 +11,10 @@ class Answer extends Component {
     for (let i = 0; i < question.length; ++i) {
       questionText.push(<h4> {question[i]} </h4>);
     }
-    console.log(this.props.answers.quotes);
+    var answerQuotes = this.props.answers.quotes[randNum].split('\n'), quotes = [];
+    for (let i = 0; i < answerQuotes.length; ++i) {
+      quotes.push(<h4> {answerQuotes[i]} </h4>);
+    }
     return(
       <div className="Answer-Block">
         <h1>占卜結果如下</h1>
@@ -26,7 +29,7 @@ class Answer extends Component {
           <div className="text">
             <h2>答：</h2>
             <div className="block">
-              <h4> {this.props.answers.quotes[randNum]} </h4>
+              <h4> {quotes} </h4>
               <h5> —— {this.props.answers.quotesrc[randNum]} </h5>
             </div>
           </div>
